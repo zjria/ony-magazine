@@ -21,14 +21,22 @@
 @import './components/navbar';
 
 /* ===============layout=============== */
+/* _grid.scss */
+@import './layout/grid';
+
 /* _header.scss */
 @import './layout/header';
 
 /* _header.scss */
 @import './layout/banner';
 
-/* _grid.scss */
-@import './layout/grid';
+/* _top-picks.scss */
+@import './layout/top-picks';
+
+/* _top-category.scss */
+@import './layout/top-category';
+
+
 
 /* _footer.scss */
 @import './layout/footer';

@@ -16,6 +16,8 @@ $pigment-red-color: #EA2B2B;
 $white-color: #ffffff;
 $granite-gray: #686868;
 $white-smoke: #F3F3F3;
+$eerie-black: #252525;
+$battleship-gray: #878787;
 
 
 
@@ -49,4 +51,9 @@ ul {
     a {
         text-decoration: none;
     }
+}
+
+.under-line-column {
+    height: 0.5px;
+    background: rgba(0, 0, 0, 0.50);
 }

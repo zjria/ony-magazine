@@ -1,0 +1,30 @@
+.top-picks {
+    margin-top: 67px;
+
+    .navbar {
+        .navbar-nav {
+            align-items: center;
+            display: flex;
+            background: none;
+
+            ul {
+                .nav-item {
+                    margin-right: 25px;
+
+                    .nav-link {
+                        font-size: 15px;
+                        font-weight: 500;
+                    }
+
+                    .nav-link:hover {
+                        color: $pigment-red-color;
+                    }
+                }
+            }
+        }
+    }
+
+    .all-card {
+        margin-top: 21px;
+    }
+}
