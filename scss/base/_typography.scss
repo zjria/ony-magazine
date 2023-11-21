@@ -1,0 +1,81 @@
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Lists */
+ol,
+ul {
+    list-style: none;
+}
+
+/* Tables */
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+ul {
+    a {
+        text-decoration: none;
+    }
+}
+
+/* Headings */
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+a:hover {}
+
+/* Lists */
+ul,
+ol {}
+
+/* Other text elements */
+p,
+blockquote,
+pre {}
+
+/* Code */
+code {}
+
+.navbar-brand {
+    color: $raisin-black-color;
+    font-family: $font-family-Poppins;
+    font-size: 32px;
+    font-weight: 900;
+}

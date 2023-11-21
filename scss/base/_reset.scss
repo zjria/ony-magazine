@@ -1,0 +1,52 @@
+// Google Font Link
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800;900;1000&family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+
+
+// Custom variables
+$font-family-nunito: 'Nunito', sans-serif;
+$font-family-Poppins: 'Poppins', sans-serif;
+$raisin-black-color: #212226;
+$cc-black-color: #000000cc;
+$b99-black-color: #00000099;
+$b80-black-color: #00000080;
+$dark29-charcoal-color: #292929;
+$dark2b-charcoal-color: #2B2B2B;
+$pigment-red-color: #EA2B2B;
+$white-color: #ffffff;
+$granite-gray: #686868;
+$white-smoke: #F3F3F3;
+
+
+
+// Custom style
+body {
+    background-color: $white-color;
+}
+
+/* Box sizing */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Lists */
+ol,
+ul {
+    list-style: none;
+    margin: 0;
+}
+
+/* Tables */
+
+/* Links */
+a {
+    text-decoration: none;
+}
+
+ul {
+    a {
+        text-decoration: none;
+    }
+}

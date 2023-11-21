@@ -1,0 +1,37 @@
+.footer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.footer a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #ff0000;
+}
+
+.copyright {
+    font-size: 14px;
+    color: #666;
+}
+
+.footer {
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+.social-links {
+    display: flex;
+}
+
+.social-link {
+    margin-right: 10px;
+}
+
+.social-link img {
+    width: 24px;
+    height: 24px;
+}

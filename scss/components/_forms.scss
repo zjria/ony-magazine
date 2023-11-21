@@ -1,0 +1,53 @@
+// _forms.scss
+
+// Input fields
+input[type="text"],
+input[type="password"],
+input[type="email"],
+select,
+textarea {
+    // Common styles for text-like inputs
+    padding: 10px;
+    margin: 5px 0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+
+    // Additional styles based on state
+    &:focus {
+        outline: none;
+        border-color: #4d90fe;
+        box-shadow: 0 0 5px rgba(77, 144, 254, 0.5);
+    }
+}
+
+// Buttons
+button,
+input[type="submit"],
+input[type="reset"] {
+    padding: 10px 15px;
+    font-size: 16px;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #4d90fe;
+        color: #fff;
+    }
+}
+
+// Form labels
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+// Error messages
+.error-message {
+    color: red;
+    font-size: 12px;
+    margin-top: 5px;
+}
+
+// Form groups
+.form-group {
+    margin-bottom: 15px;
+}

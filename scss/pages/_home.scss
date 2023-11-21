@@ -1,0 +1,42 @@
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #666;
+}
+
+.home-container {
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+
+.home-image {
+    max-width: 100%;
+    height: auto;
+}
+
+
+.cta-button {
+    background-color: #4285f4;
+    color: #fff;
+    padding: 10px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+
+    &:hover {
+        background-color: #3366cc;
+    }
+}
+
+.animated-element {
+    animation: fadeIn 1s ease-in-out;
+}
+
+
+.transition-element {
+    transition: background-color 0.3s ease-in-out;
+
+    &:hover {
+        background-color: #f0f0f0;
+    }
+}

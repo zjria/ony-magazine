@@ -1,0 +1,114 @@
+.navbar-brand-bars-icons {
+    display: flex;
+}
+
+.navbar-nav {
+    align-items: center;
+    display: flex;
+    background: goldenrod;
+}
+
+.navbar-nav ul {
+    display: flex;
+}
+
+nav.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+input.form-control {
+    border: none;
+    background-color: transparent;
+    outline: none;
+}
+
+.nav-item {
+    margin-right: 40px;
+}
+
+.nav-link {
+    color: $b80-black-color;
+    font-family: $font-family-Poppins;
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.nav-link:hover {
+    color: $pigment-red-color;
+}
+
+.navbar-brand-bars-icons {
+
+    button.navbar-toggler,
+    input[type=submit] {
+        padding: 5px 10px;
+        font-size: 16px;
+        cursor: pointer;
+        border-radius: 5px;
+        display: none;
+    }
+}
+
+.search .search-icons {
+    width: 30px;
+    height: 30px;
+    color: #14181F80;
+}
+
+
+.search button.btn {
+    align-items: center;
+    display: flex;
+    background-color: $white-smoke;
+    padding: 10px;
+
+    input {
+        font-size: 16px;
+        width: 130px;
+    }
+}
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+
+    .navbar-brand-bars-icons button.navbar-toggler,
+    .navbar-brand-bars-icons input[type=submit] {
+        display: block;
+        right: 12px;
+        position: absolute;
+    }
+
+    .navbar-nav {
+        margin-top: 100px;
+        display: none;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+
+        ul {
+            display: block;
+
+            li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .active {
+        display: block;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1201px) and (min-width: 1400px) {}
