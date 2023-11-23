@@ -5,7 +5,7 @@
 .navbar-nav {
     align-items: center;
     display: flex;
-    background: goldenrod;
+    background: $white-color;
 }
 
 .navbar-nav ul {
@@ -86,6 +86,7 @@ input.form-control {
         width: 100%;
         text-align: center;
         padding: 20px;
+        background: #404040;
 
         ul {
             display: block;
@@ -96,13 +97,79 @@ input.form-control {
         }
     }
 
+    .search button.btn {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .search button.btn input {
+        width: 100%;
+    }
+
+    .nav-link {
+        color: rgb(255 255 255);
+    }
+
     .active {
         display: block;
+    }
+
+    .navbar-nav form button.btn {
+        width: 100%;
     }
 }
 
 // Medium devices (tablets, 768px and up)
-@media (min-width: 577px) and (max-width: 768px) {}
+@media (min-width: 577px) and (max-width: 768px) {
+
+    .navbar-brand-bars-icons button.navbar-toggler,
+    .navbar-brand-bars-icons input[type=submit] {
+        display: block;
+        right: 12px;
+        position: absolute;
+    }
+
+    .navbar-nav {
+        margin-top: 100px;
+        display: none;
+        position: absolute;
+        width: 100%;
+        text-align: center;
+        padding: 20px;
+        background: #404040;
+
+        ul {
+            display: block;
+
+            li {
+                margin-bottom: 20px;
+            }
+        }
+    }
+
+    .search button.btn {
+        display: flex;
+        justify-content: center;
+        margin: auto;
+    }
+
+    .search button.btn input {
+        width: 100%;
+    }
+
+    .nav-link {
+        color: rgb(255 255 255);
+    }
+
+    .active {
+        display: block;
+    }
+
+    .navbar-nav form button.btn {
+        width: 100%;
+    }
+}
 
 // Large devices (desktops, 992px and up)
 @media (min-width: 769px) and (max-width: 992px) {}

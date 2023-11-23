@@ -49,3 +49,156 @@
 .d-flex {
     display: flex;
 }
+
+.lifestyle {
+    align-items: center;
+    margin-top: 16px;
+
+    .lifestyle-icons {
+        width: 24px;
+        height: 24px;
+        flex-shrink: 0;
+        color: #EA2B2B;
+    }
+
+    h6 {
+        margin: 0px 0px 0px 5px;
+        color: #FF005C;
+        font-family: $font-family-Poppins;
+        font-size: 15px;
+        font-weight: 500;
+    }
+}
+
+.card-big-title {
+    color: #292929;
+    font-family: $font-family-Poppins;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
+    margin: 10px 0px;
+}
+
+.card-big-para {
+    color: #878787;
+    font-family: $font-family-nunito;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin: 0;
+}
+
+.btn-big-button {
+    color: #fff;
+    font-family: Poppins;
+    font-size: 20px;
+    font-weight: 600;
+    display: flex;
+    margin: auto;
+    border: none;
+    padding: 12px 52px;
+    border-radius: 10px;
+    background: #FF4063;
+}
+
+
+// d-grid
+.d-grid-col-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.d-grid-col-3 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.d-grid-col-4 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+// gapp
+.gap-8 {
+    gap: 8px;
+}
+
+.gap-10 {
+    gap: 10px;
+}
+
+
+.gap-32 {
+    gap: 32px;
+}
+
+.gap-40 {
+    gap: 40px;
+}
+
+.gap-44 {
+    gap: 44px;
+}
+
+.grid-column-gap {
+    grid-column-gap: 32px;
+}
+
+.grid-row-gap {
+    grid-row-gap: 67px;
+}
+
+// padding
+.p-16 {
+    padding: 16px;
+}
+
+.p-32 {
+    padding: 32px;
+}
+
+.layout {
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0) 23.91%, #00000045 100%);
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
+}
+
+.layout-2 {
+    top: 0;
+    bottom: 0;
+    position: absolute;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.60);
+    border-radius: 10px;
+}
+
+.images-center-title {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: $white-color;
+    font-family: $font-family-Poppins;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.card .card-images img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.subscribe-main-title {
+    color: #505050;
+    font-family: Poppins;
+    font-size: 25px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}

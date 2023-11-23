@@ -1,0 +1,48 @@
+.informed-update-everything-going {
+    margin-top: 75px;
+
+    .informed-update {
+        padding: 65px 0;
+        align-items: center;
+        background-image: linear-gradient(rgba(22, 24, 27, 0.5), rgba(22, 24, 27, 0.5)), url("/images/information-update/lake-scene.png");
+        border-radius: 10px;
+        justify-content: center;
+
+        .title {
+            h1 {
+                color: $white-color;
+                font-family: $font-family-Poppins;
+                font-size: 40px;
+                font-weight: 700;
+            }
+        }
+    }
+
+    .input-email-submit-btn {
+        text-align: end;
+        // padding-right: 100px;
+
+        .btn {
+            padding: 7px 45px;
+            color: $white-color;
+            border-radius: 10px;
+            background: #FF005C;
+            font-family: $font-family-Poppins;
+            font-size: 18px;
+            font-weight: 500;
+        }
+    }
+
+    input#input-email {
+        width: 350px;
+        color: rgba(69, 69, 69, .7);
+        font-family: "Poppins", sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        border-radius: 10px;
+        background: rgba(255, 255, 255, .6);
+        padding: 16px 24px;
+        display: block;
+    }
+
+}

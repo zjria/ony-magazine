@@ -1,0 +1,52 @@
+.featured {
+    margin-top: 73px;
+
+    .title {
+        .main-title {
+            margin-top: 0px;
+            margin-bottom: 51px;
+        }
+    }
+
+    .all-card {
+        .card {
+            .featured-item {}
+        }
+    }
+
+    .card {
+        .featured-item {
+            align-items: center;
+            margin-bottom: 15px;
+
+            .featuredimages-top {
+                max-width: 100px;
+
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                }
+            }
+
+            .featured-content {
+                margin-left: 10px;
+
+                h6 {
+                    margin: 10px 0px;
+                    color: #2B2B2B;
+                    font-family: $font-family-Poppins;
+                    font-size: 15px;
+                    font-weight: 600;
+                }
+
+                p {
+                    margin: 0;
+                    color: #686868;
+                    font-family: $font-family-nunito;
+                    font-size: 12px;
+                    font-weight: 400;
+                }
+            }
+        }
+    }
+}

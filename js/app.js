@@ -21,7 +21,7 @@ $(document).ready(function () {
         adaptiveHeight: true,
         arrows: true,
         lazyLoad: 'ondemand',
-        autoplay: true,
+        autoplay: false,
         autoplaySpeed: 3000,
         fade: true,
         cssEase: 'linear',
@@ -30,7 +30,7 @@ $(document).ready(function () {
 
     });
 
-    $('.slider-right-section').slick({
+    $('.banner-slide-posts-slider').slick({
         arrows: true,
         slidesToShow: 1,
         slidesToScroll: 1,
@@ -46,8 +46,31 @@ $(document).ready(function () {
         autoplaySpeed: 5000,
         fade: true,
         cssEase: 'linear',
-        // prevArrow: '<button class="slide-arrow prev-arrow"><i class="fa-solid fa-angle-left"></i></button>',
-        // nextArrow: '<button class="slide-arrow next-arrow"><i class="fa-solid fa-angle-right"></i></button>'
+        // responsive: [
+        //     {
+        //         breakpoint: 1024,
+        //         settings: {
+        //             slidesToShow: 3,
+        //             slidesToScroll: 3,
+        //             infinite: true,
+        //             dots: true
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 600,
+        //         settings: {
+        //             slidesToShow: 2,
+        //             slidesToScroll: 2
+        //         }
+        //     },
+        //     {
+        //         breakpoint: 480,
+        //         settings: {
+        //             slidesToShow: 1,
+        //             slidesToScroll: 1
+        //         }
+        //     }
+        // ]
 
     });
 });
