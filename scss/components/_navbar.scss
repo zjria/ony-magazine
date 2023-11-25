@@ -97,6 +97,20 @@ ul.sub-menu-drop-down {
     width: 160px;
 }
 
+ul.tech.sub-menu-drop-down {
+    background-color: #daa520;
+    margin-left: 80px;
+    margin-top: -10px;
+    display: none;
+    border-radius: 5px;
+    position: absolute;
+}
+
+.dropdown:hover ul.tech.sub-menu-drop-down {
+    display: block;
+    width: 160px;
+}
+
 // search button
 
 .search .search-icons {
