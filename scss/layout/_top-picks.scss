@@ -28,3 +28,108 @@
         margin-top: 21px;
     }
 }
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .top-picks .navbar .navbar-nav {
+        align-items: center;
+        display: flex;
+        padding: 0px;
+    }
+
+    .top-picks .navbar-nav {
+        margin-top: 0px;
+    }
+
+    .top-picks .navbar-nav ul {
+        display: flex;
+    }
+
+    .top-picks .all-card {
+        margin-top: 50px;
+        position: relative;
+    }
+
+    .top-picks .nav-link {
+        color: rgba(0, 0, 0, .5019607843);
+    }
+
+    .d-grid-col-3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .top-picks .navbar .navbar-nav ul .nav-item {
+        margin-right: 12px;
+        margin-bottom: 0;
+    }
+
+    .top-picks .card .card-body .card-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) {
+    .top-picks .navbar .navbar-nav {
+        align-items: center;
+        display: flex;
+        padding: 0px;
+    }
+
+    .top-picks .navbar-nav {
+        margin-top: 0px;
+    }
+
+    .top-picks .navbar-nav ul {
+        display: flex;
+    }
+
+    .top-picks .all-card {
+        margin-top: 50px;
+        position: relative;
+        gap: 12px;
+    }
+
+    .top-picks .nav-link {
+        color: rgba(0, 0, 0, .5019607843);
+    }
+
+    .d-grid-col-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .top-picks .navbar .navbar-nav ul .nav-item {
+        margin-right: 12px;
+        margin-bottom: 0;
+    }
+
+    .top-picks .card .card-body .card-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) {
+    .top-picks .card .card-body .card-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .top-picks .all-card.d-grid-col-3.gap-32 {
+        gap: 20px;
+    }
+
+    .top-picks .card .card-body .card-para {
+        margin-top: 10px;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1201px) and (min-width: 1400px) {}

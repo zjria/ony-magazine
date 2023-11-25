@@ -221,17 +221,24 @@
 
     .banner .banner-container .banner-slide-photo .slider .slick-items .images-content {
         margin: 10px;
-        top: 50px;
+        top: 100px;
+    }
+
+    .banner .banner-container .banner-slide-photo .slick-dots {
+        bottom: 0px;
     }
 
     .banner .banner-container .banner-slide-photo .slider .slick-items .images-content .banner-title {
         color: #fff;
         font-family: Poppins;
         font-size: 14px;
+        line-height: 20px;
     }
 
     .banner .banner-container .banner-slide-photo .slider .slick-items .images-content .banner-paragrap {
         margin: 0;
+        font-size: 12px;
+        line-height: 16px;
     }
 
     .banner .banner-container .banner-slide-posts {
@@ -260,11 +267,12 @@
     .banner .banner-container .banner-slide-photo .slider .slick-items .images-content .banner-title {
         color: #fff;
         font-family: Poppins;
-        font-size: 20px;
+        font-size: 25px;
     }
 
     .banner .banner-container .banner-slide-photo .slider .slick-items .images-content .banner-paragrap {
         margin: 0;
+        font-size: 16px;
     }
 
     .banner .banner-container .banner-slide-posts {

@@ -172,7 +172,34 @@ input.form-control {
 }
 
 // Large devices (desktops, 992px and up)
-@media (min-width: 769px) and (max-width: 992px) {}
+@media (min-width: 769px) and (max-width: 992px) {
+    .header-section .navbar-brand {
+        font-size: 20px;
+        font-weight: 700;
+    }
+
+    .header-section .nav-link {
+        font-size: 16px;
+    }
+
+    .header-section .nav-item {
+        margin-right: 20px;
+    }
+
+    .header-section nav.navbar {
+        align-items: center;
+    }
+
+    .header-section .search button.btn {
+        padding: 5px;
+    }
+
+    .header-section .search .search-icons {
+        width: 20px;
+        height: 20px;
+        color: rgba(20, 24, 31, .5019607843);
+    }
+}
 
 // X-Large devices (large desktops, 1200px and up)
 @media (min-width: 993px) and (max-width: 1200px) {}

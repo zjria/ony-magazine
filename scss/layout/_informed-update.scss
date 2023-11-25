@@ -46,3 +46,60 @@
     }
 
 }
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .informed-update-everything-going .informed-update {
+        flex-direction: column;
+    }
+
+    .informed-update-everything-going .informed-update .title h1 {
+        font-size: 20px;
+        font-weight: 500;
+    }
+
+    .informed-update-everything-going input#input-email {
+        width: 280px;
+        color: $white-color;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) {
+    .informed-update-everything-going .informed-update {
+        flex-direction: column;
+    }
+
+    .informed-update-everything-going .informed-update .title h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+
+    .informed-update-everything-going input#input-email {
+        width: 280px;
+        color: $white-color;
+    }
+
+    .informed-update-everything-going input#input-email {
+        padding: 10px 26px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) {
+    .informed-update-everything-going .informed-update {
+        padding: 65px 10px;
+    }
+
+    .informed-update-everything-going .informed-update .title h1 {
+        font-size: 30px;
+        font-weight: 700;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1201px) and (min-width: 1400px) {}

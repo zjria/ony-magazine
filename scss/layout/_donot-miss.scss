@@ -5,3 +5,60 @@
         margin-top: 21px;
     }
 }
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .donot-miss .d-grid-col-3 {
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .donot-miss .card .card-body .card-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .donot-miss .card .card-body .card-para {
+        margin-top: 10px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) {
+    .donot-miss .d-grid-col-3 {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .donot-miss .card .card-body .card-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .donot-miss .card .card-body .card-para {
+        margin-top: 10px;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) {
+    .donot-miss .card .card-body .card-title {
+        font-size: 16px;
+        line-height: 20px;
+    }
+
+    .donot-miss .all-card.d-grid-col-3.gap-32 {
+        gap: 20px;
+    }
+
+    .donot-miss .card .card-body .card-para {
+        margin-top: 10px;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1201px) and (min-width: 1400px) {}
