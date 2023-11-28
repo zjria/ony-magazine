@@ -27,7 +27,7 @@ $(document).ready(function () {
 
     });
 
-    $('.banner-slide-posts-slider').slick({
+    $('.related-posts-slider').slick({
         slidesToShow: 1,
         slidesToScroll: 1,
         infinite: true,
