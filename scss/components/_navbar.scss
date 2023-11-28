@@ -15,6 +15,7 @@
 nav.navbar {
     display: flex;
     justify-content: space-between;
+    margin-bottom: 17px;
 }
 
 input.form-control {
@@ -133,9 +134,16 @@ ul.tech.sub-menu-drop-down {
 }
 
 
-
 // Small devices (landscape phones, 576px and up)
 @media (max-width: 576px) {
+    .navbar-brand-bars-icons {
+        display: flex;
+        // align-items: center;
+
+        .navbar-brand {
+            position: absolute;
+        }
+    }
 
     .navbar-brand-bars-icons button.navbar-toggler,
     .navbar-brand-bars-icons input[type=submit] {
@@ -145,7 +153,7 @@ ul.tech.sub-menu-drop-down {
     }
 
     .navbar-nav {
-        margin-top: 100px;
+        margin-top: 60px;
         display: none;
         position: absolute;
         width: 100%;
@@ -178,6 +186,7 @@ ul.tech.sub-menu-drop-down {
 
     .active {
         display: block;
+        position: relative;
     }
 
     .navbar-nav form button.btn {
@@ -227,8 +236,13 @@ ul.tech.sub-menu-drop-down {
         color: rgb(255 255 255);
     }
 
+    .navbar-brand-bars-icons .navbar-brand {
+        position: absolute;
+    }
+
     .active {
         display: block;
+        position: relative;
     }
 
     .navbar-nav form button.btn {

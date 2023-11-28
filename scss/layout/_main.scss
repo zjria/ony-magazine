@@ -1,0 +1,349 @@
+.main-section {
+    max-width: 56%;
+    background-color: gainsboro;
+
+    .main-header {
+        .main-title {
+            text-align: start;
+        }
+    }
+
+    .main-post {
+        .top-nav {
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 22px;
+
+            .date-update {
+                ul {
+                    display: flex;
+
+                    li {
+                        margin: 0 5px;
+
+                        a {
+                            color: #6A6A6A;
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+
+            .shear-print-save {
+                ul {
+                    display: flex;
+
+                    li {
+                        margin: 0 5px;
+
+                        a {
+                            color: #6A6A6A;
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+                    }
+                }
+            }
+        }
+
+        .post-images-contant {
+            .post-images {
+                img {
+                    width: 100%;
+                    border-radius: 5px;
+                    height: auto;
+                }
+            }
+
+            .post-contant {
+                margin-top: 16px;
+
+                p {
+                    color: #424245;
+                    font-family: Nunito;
+                    font-size: 18px;
+                    font-style: normal;
+                    font-weight: 400;
+                    line-height: normal;
+                    margin-bottom: 25px;
+                }
+
+                h3 {
+                    color: #2B2B2B;
+                    font-family: Nunito;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                    margin-top: 15px;
+                    margin-bottom: 22px;
+                }
+
+                .big-contant {
+                    border-radius: 15px;
+                    background: var(--style-cute-2-red-6-cardinal, #FF4B4B);
+                    padding: 55px 57px 21px 58px;
+
+                    h2 {
+                        color: #FFF;
+                        font-family: Nunito;
+                        font-size: 30px;
+                        font-style: normal;
+                        font-weight: 700;
+                        line-height: normal;
+                    }
+
+                    h6 {
+                        color: #FFF;
+                        font-family: Nunito;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: normal;
+                        margin-top: 7px;
+                        text-align: end;
+                    }
+                }
+            }
+
+            .contant-videos {
+                h3 {
+                    color: #2B2B2B;
+                    font-family: Nunito;
+                    font-size: 25px;
+                    font-style: normal;
+                    font-weight: 800;
+                    line-height: normal;
+                    margin: 50px 0;
+                }
+
+                .video {
+                    border-radius: 15px;
+                    background: #989898;
+                    padding: 130px 0px;
+                    text-align: center;
+                }
+
+                .video-footer {
+                    h6 {
+                        color: #2B2B2B;
+                        font-family: Nunito;
+                        font-size: 25px;
+                        font-style: normal;
+                        font-weight: 800;
+                        line-height: normal;
+                        margin: 20px 0;
+                    }
+
+                    ul {
+                        li {
+                            color: #424245;
+                            font-family: Nunito;
+                            font-size: 18px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            margin-bottom: 17px;
+                        }
+
+                        li::before {
+                            content: "\2022";
+                            color: red;
+                            font-weight: bold;
+                            display: inline-block;
+                            width: 11px;
+                            height: 11px;
+                            margin-right: 6px;
+                        }
+                    }
+                }
+            }
+        }
+
+        .slide-post {
+            margin: 33px 0;
+
+            button.slide-arrow.prev-arrow.slick-arrow,
+            button.slide-arrow.next-arrow.slick-arrow {
+                border: none;
+                background-color: transparent;
+                color: #6A6A6A;
+                text-align: right;
+                font-family: Poppins;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+            }
+
+            button.slide-arrow.next-arrow.slick-arrow {
+                top: 0;
+                right: 0;
+                position: absolute;
+            }
+
+            .card {
+                margin: 0 34px;
+                justify-content: space-between;
+                float: left;
+                margin-left: 0;
+
+                .card-contant {
+                    h5 {
+                        color: #292929;
+                        font-family: Poppins;
+                        font-size: 20px;
+                        font-style: normal;
+                        font-weight: 600;
+                        line-height: 28px;
+                        margin-top: 10px;
+                    }
+                }
+            }
+
+        }
+
+        .about-author {
+            .author-top {
+                margin-top: 10px;
+                color: #FF005C;
+                font-family: Poppins;
+                font-size: 15px;
+                font-style: normal;
+                font-weight: 500;
+                line-height: normal;
+
+                .author-details {
+                    margin-top: 24px;
+                    border-radius: 15px;
+                    background: #eee;
+                    padding: 16px 0;
+                    justify-content: center;
+                    align-items: center;
+                    gap: 30px;
+
+                    .author-images {
+                        img {
+                            width: 159px;
+                            height: 159px;
+                            flex-shrink: 0;
+                        }
+                    }
+
+                    .author-contant {
+                        h6 {
+                            color: #6A6A6A;
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 500;
+                            line-height: normal;
+                        }
+
+                        h2 {
+                            color: #2B2B2B;
+                            font-family: Poppins;
+                            font-size: 25px;
+                            font-style: normal;
+                            font-weight: 600;
+                            line-height: normal;
+                        }
+
+                        p {
+                            color: #000;
+                            font-family: Poppins;
+                            font-size: 15px;
+                            font-style: normal;
+                            font-weight: 400;
+                            line-height: normal;
+                            width: 286px;
+                            flex-shrink: 0;
+                            margin: 0;
+                        }
+
+                        .social-link {
+                            margin-top: 10px;
+
+                            h3 {
+                                color: #292929;
+                                font-family: Poppins;
+                                font-size: 25px;
+                                font-style: normal;
+                                font-weight: 600;
+                                line-height: normal;
+                            }
+
+                            .social-icons {
+
+                                ul {
+                                    display: flex;
+
+                                    li {
+                                        padding: 5px;
+                                        border-radius: 100%;
+                                        margin: 10px;
+
+                                        a {
+                                            color: $white-color;
+                                            font-size: 15px;
+                                        }
+                                    }
+
+                                    .instagram,
+                                    .twitter,
+                                    .linkedin,
+                                    .facebook,
+                                    .youtube,
+                                    .behance {
+                                        width: 27.976px;
+                                        height: 27.976px;
+                                        flex-shrink: 0;
+                                        align-items: center;
+                                        display: flex;
+                                        text-align: center;
+                                        justify-content: center;
+                                        margin: 0px;
+                                        margin-right: 5px;
+                                    }
+
+                                    .instagram {
+                                        background-color: #c13584;
+                                    }
+
+                                    .twitter {
+                                        background-color: #1DA1F2;
+                                    }
+
+                                    .linkedin {
+                                        background-color: #0077B5;
+                                    }
+
+                                    .facebook {
+                                        background-color: #3B5998;
+                                    }
+
+                                    .youtube {
+                                        background-color: #FF0000;
+                                    }
+
+                                    .behance {
+                                        background-color: #1769FF;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+
+}

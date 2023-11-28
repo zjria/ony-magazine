@@ -22,30 +22,20 @@
     padding-left: 15px;
 }
 
-@media (min-width: 576px) {
-    .col-sm {
-        flex: 0 0 50%;
-        max-width: 50%;
-    }
+.layout-3 {
+    background: linear-gradient(180deg, rgba(25, 29, 35, 0) -19.17%, rgba(0, 0, 0, 0.6) 79.2%);
+    top: 0;
+    bottom: 3px;
+    position: absolute;
+    width: 100%;
+    border-radius: 10px;
 }
 
-@media (min-width: 768px) {
-    .col-md {
-        flex: 0 0 66.66667%;
-        max-width: 66.66667%;
-    }
+.d-grid-col-5 {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
 }
 
-@media (min-width: 992px) {
-    .col-lg {
-        flex: 0 0 75%;
-        max-width: 75%;
-    }
-}
-
-@media (min-width: 1200px) {
-    .col-xl {
-        flex: 0 0 100%;
-        max-width: 100%;
-    }
+.grid-columns-gap-24 {
+    grid-column-gap: 24px;
 }

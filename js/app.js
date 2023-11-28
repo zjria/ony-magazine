@@ -40,6 +40,24 @@ $(document).ready(function () {
         fade: true,
         cssEase: 'linear',
     });
+
+    $('.slide-post').slick({
+        arrows: true,
+        slidesToShow: 2,
+        slidesToScroll: 1,
+        infinite: true,
+        speed: 300,
+        arrows: true,
+        lazyLoad: 'ondemand',
+        autoplay: false,
+        autoplaySpeed: 3000,
+        cssEase: 'linear',
+        prevArrow: '<button class="slide-arrow prev-arrow">Previous Post</button>',
+        nextArrow: '<button class="slide-arrow next-arrow">Next Post</button>',
+
+    });
+
+
 });
 
 

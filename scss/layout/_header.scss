@@ -2,3 +2,35 @@
     margin-top: 29px;
     position: relative;
 }
+
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .header-section {
+
+        .under-line-column {
+            display: none;
+        }
+    }
+
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) {
+    .header-section {
+
+        .under-line-column {
+            display: none;
+        }
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) {}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1201px) and (min-width: 1400px) {}
