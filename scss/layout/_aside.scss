@@ -213,3 +213,44 @@
         }
     }
 }
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {
+    .aside-section {
+        max-width: 100%;
+        display: block;
+        margin: 50px 0;
+        float: none;
+    }
+
+    .aside-section .daily-newsletter h1 {
+        font-size: 30px;
+    }
+}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) {
+    .aside-section {
+        max-width: 100%;
+        display: block;
+        margin: 50px 0;
+        float: none;
+    }
+}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) {
+    .aside-section {
+        max-width: 100%;
+        display: block;
+        margin: 50px 0;
+        float: none;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1201px) and (min-width: 1400px) {}

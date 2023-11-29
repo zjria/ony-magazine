@@ -18,7 +18,12 @@
 }
 
 // Small devices (landscape phones, 576px and up)
-@media (max-width: 576px) {}
+@media (max-width: 576px) {
+    .life-style ul {
+        flex-direction: column;
+        text-align: center;
+    }
+}
 
 // Medium devices (tablets, 768px and up)
 @media (min-width: 577px) and (max-width: 768px) {}
