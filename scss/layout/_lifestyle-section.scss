@@ -1,0 +1,50 @@
+.lifestyle-section {
+    margin: 50px 0;
+
+    .life-top {
+        h6 {
+            color: rgba(43, 43, 43, 0.80);
+            font-family: Poppins;
+            font-size: 20px;
+            font-style: normal;
+            font-weight: 600;
+            line-height: normal;
+            text-align: center;
+        }
+
+        .main-title {
+            color: #252525;
+            text-align: center;
+            font-family: Poppins;
+            font-size: 35px;
+            font-style: normal;
+            font-weight: 700;
+            line-height: normal;
+        }
+    }
+}
+
+
+// Small devices (landscape phones, 576px and up)
+@media (max-width: 576px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 577px) and (max-width: 768px) {}
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 769px) and (max-width: 992px) {
+    .all-card.d-grid-col-3.gap-32 {
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .card .card-body .card-title {
+        font-size: 20px;
+        line-height: 28px;
+    }
+}
+
+// X-Large devices (large desktops, 1200px and up)
+@media (min-width: 993px) and (max-width: 1200px) {}
+
+// XX-Large devices (larger desktops, 1400px and up)
+@media (min-width: 1201px) and (min-width: 1400px) {}
